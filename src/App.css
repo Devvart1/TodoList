@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --w1: #ffffff;
+  --b1: #000000;
+
+  --t1: #808184;
+
+  --g1: #dfe4e9;
+  --g2: #f0f1f4;
+  --g3: #F8F8FA;
+
+}
+.board-details{
+  width: 100%;
+  height: calc(100vh - 68px);
+  background-color: var(--g2);
+  overflow-x: scroll;
+}
+.board-details-list{
+  width: fit-content;
+  display: flex;
+}
